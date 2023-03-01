@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 27px 10px;
+    width: auto;
+    height: 37.5rem;
+}
+img{
+    width: 130%;
+    height: 37.5rem;
+    border-top-left-radius: 230px;
+    border-bottom-right-radius: 230px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.login h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.imp{
+    height: 50px;
+    width: 60%;
+    padding-left: 30px;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: -25px -20px 30px -20px rgba(0, 0, 0, 0.45);
+    background: radial-gradient(circle, rgba(103,178,241,1) 9%, rgba(150,233,148,1) 61%);
+}
+
+button{
+    width: 150px;
+}
+p{
+    padding-top: 15px;
+    color:darkgray;
+}
+.fa-google{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fa-google:hover{
+    color:darkred
+}
+.fa-facebook{
+    padding: 10px;
+    font-size: 20px;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter{
+    padding: 10px;
+    font-size: 20px;
+}
+.fa-twitter:hover{
+    color: mediumblue;
+}
